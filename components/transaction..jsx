@@ -6,7 +6,6 @@ import { useTheme } from '../ThemeContext';
 const Transaction = ({icon, title , category, amount,id }) => {
     const { colorScheme } = useTheme();
     
-    console.log("id",id);
     return(
 
         <View style={styles.container}>
